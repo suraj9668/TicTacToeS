@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn: X"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/b00"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b01"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b02"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b10"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b11"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b12"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b20"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b21"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/b22"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="28sp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
